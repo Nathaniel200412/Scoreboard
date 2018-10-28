@@ -5,6 +5,7 @@ namespace Napol\Scoreboard\Task;
 
 use pocketmine\scheduler\Task;
 use Napol\Scoreboard\Scoreboard;
+use pocketmine\server;
 
 class ScoreboardTask extends Task {
 
