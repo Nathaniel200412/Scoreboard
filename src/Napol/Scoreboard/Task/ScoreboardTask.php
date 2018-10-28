@@ -63,7 +63,7 @@ class ScoreboardTask extends Task {
                         $lines = str_replace("{ids}", $ids, $lines);
                         $lines = str_replace("{level}", $level, $lines);
                         $lines = str_replace("{time}", $date, $lines);
-			$lines = str_replace("{kills}", $kills, $lines);
+			 $lines = str_replace("{kills}", $kills, $lines);
                         $lines = str_replace("{deaths}", $deaths, $lines);
                         $lines = str_replace("{ping}", $ping, $lines);
                 /* <------------------------------> */
